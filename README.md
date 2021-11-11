@@ -26,6 +26,8 @@ body { font-family: "Lexend", "Noto Sans KR", sans-serif; }
 ```
    
 ### POSITION
+- 자식의 부피만 갖음 → width와 height 설정시 원하는 부피가 생김
+- z-index로 화면에 나타나게 조정 가능
 #### ABSOLUTE
 - 좌표를 지정할 수 있음
 - 부모에 POSITION 적용해야 따라감 ( 미적용시 HTML 전체에 반영)
@@ -39,8 +41,6 @@ body { font-family: "Lexend", "Noto Sans KR", sans-serif; }
 - 기본적으로 row(가로정렬), nowrap(줄바꿈X) 설정
 - flex-direction : column / flex-wrap : wrap 변경 가능
 - justify-content : 기준 축 방향 정렬 / align-items: 기준 반대축 방향 정렬
-- 자식의 부피만 갖음 → width와 height 설정시 원하는 부피가 생김
-- z-index로 화면에 나타나게 조정 가능
 #### BLOCK
 - inline → block 가능하게 함
 - width와 height 설정시 부피가 생김

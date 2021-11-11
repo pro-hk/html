@@ -13,12 +13,14 @@
 }
 ```
 #### 2. 사용
-1. 상단에 @import "mixins"; 선언 - 이름에 있는 `_`는 생략
+1. 상단에 @import "mixins"; 선언
+ - 이름에 있는 `_`는 생략
 ```scss
 @import "mixins";
 ```
 2. @include 설정한 이름(매개변수 값 입력);
+- 미설정시 기본값 출력
 ```scss
-@include box(100px);
+@include pseudo();
 ```
 ---

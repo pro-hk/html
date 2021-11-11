@@ -25,6 +25,15 @@
 body { font-family: "Lexend", "Noto Sans KR", sans-serif; }
 ```
    
+### POSITION
+#### ABSOLUTE
+- 좌표를 지정할 수 있음
+- 부모에 POSITION 적용해야 따라감 ( 미적용시 HTML 전체에 반영)
+#### FIXED
+- 부모와 상관없이 고정된 좌표를 지정
+#### RELATIVE
+- POSITION 선언만 하는 것 같음( 크게 영향이 없어 ABSOLUTE 쓴 부모에게 적용하는 것 같음)
+   
 ### DISPLAY
 #### FLEX
 - 기본적으로 row(가로정렬), nowrap(줄바꿈X) 설정

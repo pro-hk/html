@@ -71,3 +71,10 @@ body { font-family: "Lexend", "Noto Sans KR", sans-serif; }
 @include pseudo();
 ```
 ---
+
+
+자바스크립트 : run time -- 웹브라우저에 해석기가 있음
+
+자바
+JDK 설치
+editor == 이클립스 / intelli j
